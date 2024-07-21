@@ -61,3 +61,6 @@ on property:twrp.decrypt.done=true && property:twrp.all.users.decrypted=true
     stop mobicore
     stop keymaster-4-0
     stop gatekeeper-1-0
+
+on post-fs
+    start boot-hal-1-2
