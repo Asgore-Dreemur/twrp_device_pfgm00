@@ -53,7 +53,7 @@ BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
 BOARD_SUPER_PARTITION_SIZE := 10737418240
 BOARD_SUPER_PARTITION_GROUPS := main
-BOARD_MAIN_PARTITION_LIST := system vendor product system_ext odm my_bigball my_carrier my_company my_engineering my_heytap my_manifest my_preload my_product my_region my_stock pl_a pl_b product-verity system-verity system_ext-verity vendor-verity
+BOARD_MAIN_PARTITION_LIST := system vendor product system_ext odm
 BOARD_MAIN_SIZE := 10733223936
 
 # Platform
